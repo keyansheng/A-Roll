@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012BC0000100000001 /* LogCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000012BC0000100000001 /* LogCamApp.swift */; };
+		A10000022BC0000100000001 /* CameraSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000022BC0000100000001 /* CameraSettings.swift */; };
+		A10000032BC0000100000001 /* RAWShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = A20000032BC0000100000001 /* RAWShaders.metal */; };
+		A10000042BC0000100000001 /* CubeLUTLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000042BC0000100000001 /* CubeLUTLoader.swift */; };
+		A10000052BC0000100000001 /* RAWImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000052BC0000100000001 /* RAWImagePipeline.swift */; };
+		A10000062BC0000100000001 /* GyroflowLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000062BC0000100000001 /* GyroflowLogger.swift */; };
+		A10000072BC0000100000001 /* SyntheticRAWGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000072BC0000100000001 /* SyntheticRAWGenerator.swift */; };
+		A10000082BC0000100000001 /* RAWCaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000082BC0000100000001 /* RAWCaptureSessionManager.swift */; };
+		A10000092BC0000100000001 /* AudioMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000092BC0000100000001 /* AudioMonitor.swift */; };
+		A100000A2BC0000100000001 /* VideoRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A2BC0000100000001 /* VideoRecorder.swift */; };
+		A100000B2BC0000100000001 /* MetalPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B2BC0000100000001 /* MetalPreviewView.swift */; };
+		A100000C2BC0000100000001 /* ExposureWBControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C2BC0000100000001 /* ExposureWBControlsView.swift */; };
+		A100000D2BC0000100000001 /* PipelineSettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D2BC0000100000001 /* PipelineSettingsSheet.swift */; };
+		A100000E2BC0000100000001 /* RecordingsBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000E2BC0000100000001 /* RecordingsBrowserView.swift */; };
+		A100000F2BC0000100000001 /* CameraMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F2BC0000100000001 /* CameraMainView.swift */; };
+		A10000102BC0000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000102BC0000100000001 /* Assets.xcassets */; };
+		A10000112BC0000100000001 /* LogCamPipelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000122BC0000100000001 /* LogCamPipelineTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000012BC0000100000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000012BC0000100000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000012BC0000100000001;
+			remoteInfo = LogCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000012BC0000100000001 /* LogCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCamApp.swift; sourceTree = "<group>"; };
+		A20000022BC0000100000001 /* CameraSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSettings.swift; sourceTree = "<group>"; };
+		A20000032BC0000100000001 /* RAWShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = text; path = RAWShaders.metal; sourceTree = "<group>"; };
+		A20000042BC0000100000001 /* CubeLUTLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeLUTLoader.swift; sourceTree = "<group>"; };
+		A20000052BC0000100000001 /* RAWImagePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWImagePipeline.swift; sourceTree = "<group>"; };
+		A20000062BC0000100000001 /* GyroflowLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroflowLogger.swift; sourceTree = "<group>"; };
+		A20000072BC0000100000001 /* SyntheticRAWGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntheticRAWGenerator.swift; sourceTree = "<group>"; };
+		A20000082BC0000100000001 /* RAWCaptureSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWCaptureSessionManager.swift; sourceTree = "<group>"; };
+		A20000092BC0000100000001 /* AudioMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMonitor.swift; sourceTree = "<group>"; };
+		A200000A2BC0000100000001 /* VideoRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorder.swift; sourceTree = "<group>"; };
+		A200000B2BC0000100000001 /* MetalPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalPreviewView.swift; sourceTree = "<group>"; };
+		A200000C2BC0000100000001 /* ExposureWBControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureWBControlsView.swift; sourceTree = "<group>"; };
+		A200000D2BC0000100000001 /* PipelineSettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipelineSettingsSheet.swift; sourceTree = "<group>"; };
+		A200000E2BC0000100000001 /* RecordingsBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsBrowserView.swift; sourceTree = "<group>"; };
+		A200000F2BC0000100000001 /* CameraMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMainView.swift; sourceTree = "<group>"; };
+		A20000102BC0000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000112BC0000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000122BC0000100000001 /* LogCamPipelineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogCamPipelineTests.swift; sourceTree = "<group>"; };
+		A20000132BC0000100000001 /* LogCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000142BC0000100000001 /* LogCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000012BC0000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40000022BC0000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000012BC0000100000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000022BC0000100000001 /* LogCam */,
+				A50000092BC0000100000001 /* LogCamTests */,
+				A500000A2BC0000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000022BC0000100000001 /* LogCam */ = {
+			isa = PBXGroup;
+			children = (
+				A50000032BC0000100000001 /* App */,
+				A50000042BC0000100000001 /* Models */,
+				A50000052BC0000100000001 /* Pipeline */,
+				A50000062BC0000100000001 /* Camera */,
+				A50000072BC0000100000001 /* Recording */,
+				A50000082BC0000100000001 /* Views */,
+				A20000102BC0000100000001 /* Assets.xcassets */,
+			);
+			path = LogCam;
+			sourceTree = "<group>";
+		};
+		A50000032BC0000100000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000012BC0000100000001 /* LogCamApp.swift */,
+				A20000112BC0000100000001 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A50000042BC0000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000022BC0000100000001 /* CameraSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000052BC0000100000001 /* Pipeline */ = {
+			isa = PBXGroup;
+			children = (
+				A20000032BC0000100000001 /* RAWShaders.metal */,
+				A20000042BC0000100000001 /* CubeLUTLoader.swift */,
+				A20000052BC0000100000001 /* RAWImagePipeline.swift */,
+			);
+			path = Pipeline;
+			sourceTree = "<group>";
+		};
+		A50000062BC0000100000001 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				A20000062BC0000100000001 /* GyroflowLogger.swift */,
+				A20000072BC0000100000001 /* SyntheticRAWGenerator.swift */,
+				A20000082BC0000100000001 /* RAWCaptureSessionManager.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		A50000072BC0000100000001 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				A20000092BC0000100000001 /* AudioMonitor.swift */,
+				A200000A2BC0000100000001 /* VideoRecorder.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		A50000082BC0000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A200000B2BC0000100000001 /* MetalPreviewView.swift */,
+				A200000C2BC0000100000001 /* ExposureWBControlsView.swift */,
+				A200000D2BC0000100000001 /* PipelineSettingsSheet.swift */,
+				A200000E2BC0000100000001 /* RecordingsBrowserView.swift */,
+				A200000F2BC0000100000001 /* CameraMainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000092BC0000100000001 /* LogCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20000122BC0000100000001 /* LogCamPipelineTests.swift */,
+			);
+			path = LogCamTests;
+			sourceTree = "<group>";
+		};
+		A500000A2BC0000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000132BC0000100000001 /* LogCam.app */,
+				A20000142BC0000100000001 /* LogCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000012BC0000100000001 /* LogCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000022BC0000100000001 /* Build configuration list for PBXNativeTarget "LogCam" */;
+			buildPhases = (
+				A70000012BC0000100000001 /* Sources */,
+				A40000012BC0000100000001 /* Frameworks */,
+				A70000022BC0000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogCam;
+			productName = LogCam;
+			productReference = A20000132BC0000100000001 /* LogCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000022BC0000100000001 /* LogCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000032BC0000100000001 /* Build configuration list for PBXNativeTarget "LogCamTests" */;
+			buildPhases = (
+				A70000032BC0000100000001 /* Sources */,
+				A40000022BC0000100000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60000032BC0000100000001 /* PBXTargetDependency */,
+			);
+			name = LogCamTests;
+			productName = LogCamTests;
+			productReference = A20000142BC0000100000001 /* LogCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000012BC0000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A60000012BC0000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					A60000022BC0000100000001 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A60000012BC0000100000001;
+					};
+				};
+			};
+			buildConfigurationList = A80000012BC0000100000001 /* Build configuration list for PBXProject "LogCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000012BC0000100000001;
+			productRefGroup = A500000A2BC0000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000012BC0000100000001 /* LogCam */,
+				A60000022BC0000100000001 /* LogCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000022BC0000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000102BC0000100000001 /* Assets.xcassets in Resources */,
+				A10000032BC0000100000001 /* RAWShaders.metal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000012BC0000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012BC0000100000001 /* LogCamApp.swift in Sources */,
+				A10000022BC0000100000001 /* CameraSettings.swift in Sources */,
+				A10000042BC0000100000001 /* CubeLUTLoader.swift in Sources */,
+				A10000052BC0000100000001 /* RAWImagePipeline.swift in Sources */,
+				A10000062BC0000100000001 /* GyroflowLogger.swift in Sources */,
+				A10000072BC0000100000001 /* SyntheticRAWGenerator.swift in Sources */,
+				A10000082BC0000100000001 /* RAWCaptureSessionManager.swift in Sources */,
+				A10000092BC0000100000001 /* AudioMonitor.swift in Sources */,
+				A100000A2BC0000100000001 /* VideoRecorder.swift in Sources */,
+				A100000B2BC0000100000001 /* MetalPreviewView.swift in Sources */,
+				A100000C2BC0000100000001 /* ExposureWBControlsView.swift in Sources */,
+				A100000D2BC0000100000001 /* PipelineSettingsSheet.swift in Sources */,
+				A100000E2BC0000100000001 /* RecordingsBrowserView.swift in Sources */,
+				A100000F2BC0000100000001 /* CameraMainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000032BC0000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000112BC0000100000001 /* LogCamPipelineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60000032BC0000100000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000012BC0000100000001 /* LogCam */;
+			targetProxy = A30000012BC0000100000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000012BC0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_DEBUG_DYLIB = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000022BC0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0000032BC0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LogCam/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawcam.logcam.clone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AA0000042BC0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LogCam/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawcam.logcam.clone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		AA0000052BC0000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawcam.logcam.clone.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogCam";
+			};
+			name = Debug;
+		};
+		AA0000062BC0000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rawcam.logcam.clone.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LogCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LogCam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000012BC0000100000001 /* Build configuration list for PBXProject "LogCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000012BC0000100000001 /* Debug */,
+				AA0000022BC0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000022BC0000100000001 /* Build configuration list for PBXNativeTarget "LogCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000032BC0000100000001 /* Debug */,
+				AA0000042BC0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000032BC0000100000001 /* Build configuration list for PBXNativeTarget "LogCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000052BC0000100000001 /* Debug */,
+				AA0000062BC0000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000012BC0000100000001 /* Project object */;
+}
